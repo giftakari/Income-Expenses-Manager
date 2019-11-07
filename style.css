@@ -41,20 +41,15 @@ body {
 
 .top {
   height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("./images/image7.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-position: center;
-  position: relative;
-  background-size: cover;
-  margin: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("./images/image7.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+  position: relative;
   background-size: cover;
 }
 
